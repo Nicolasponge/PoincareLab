@@ -4,7 +4,7 @@ Um visualizador interativo do plano hiperbólico, construído sobre o modelo do 
 
 Desenvolvido como parte de um projeto de Iniciação Científica em Matemática Aplicada e Computacional, para apoiar visualmente o estudo de geometria euclidiana e hiperbólica.
 
-**[➜ Experimente ao vivo](#)** <!-- TODO: link do GitHub Pages, quando publicado -->
+**[➜ Experimente ao vivo](https://nicolasponge.github.io/PoincareLab/)** <!-- TODO: link do GitHub Pages, quando publicado -->
 
 ![PoincaréLab](screenshot.png) <!-- TODO: adicionar uma captura de tela -->
 
