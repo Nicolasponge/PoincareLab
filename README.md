@@ -6,7 +6,7 @@ Desenvolvido como parte de um projeto de Iniciação Científica em Matemática 
 
 **[➜ Experimente ao vivo](#)** <!-- TODO: link do GitHub Pages, quando publicado -->
 
-![PoincaréLab](docs/screenshot.png) <!-- TODO: adicionar uma captura de tela -->
+![PoincaréLab](screenshot.png) <!-- TODO: adicionar uma captura de tela -->
 
 ## O que é
 
