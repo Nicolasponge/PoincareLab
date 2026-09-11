@@ -1,6 +1,6 @@
 # PoincaréLab
 
-Um visualizador interativo do plano hiperbólico, construído sobre o modelo do disco de Poincaré — inspirado no GeoGebra, mas voltado especificamente para geometria hiperbólica.
+Um visualizador interativo do plano hiperbólico, construído sobre o modelo do disco de Poincaré inspirado no GeoGebra, mas voltado especificamente para geometria hiperbólica.
 
 Desenvolvido como parte de um projeto de Iniciação Científica em Matemática Aplicada e Computacional, para apoiar visualmente o estudo de geometria euclidiana e hiperbólica.
 
@@ -10,14 +10,14 @@ Desenvolvido como parte de um projeto de Iniciação Científica em Matemática 
 
 ## O que é
 
-O plano hiperbólico não pode ser desenhado fielmente numa folha de papel — a distância "cresce" perto da borda de um jeito que a intuição euclidiana não prevê. O modelo do disco de Poincaré contorna isso: representa o plano hiperbólico inteiro dentro de um disco euclidiano comum, onde retas viram arcos de círculo (ou diâmetros), e ângulos e distâncias seguem fórmulas específicas.
+O plano hiperbólico não pode ser desenhado fielmente numa folha de papel a distância "cresce" perto da borda de um jeito que a intuição euclidiana não prevê. O modelo do disco de Poincaré contorna isso: representa o plano hiperbólico inteiro dentro de um disco euclidiano comum, onde retas viram arcos de círculo (ou diâmetros), e ângulos e distâncias seguem fórmulas específicas.
 
-O PoincaréLab deixa construir e manipular objetos hiperbólicos diretamente nesse modelo, clicando, arrastando e digitando comandos — sem precisar calcular nada à mão.
+O PoincaréLab deixa construir e manipular objetos hiperbólicos diretamente nesse modelo, clicando, arrastando e digitando comandos sem precisar calcular nada à mão.
 
 ## Funcionalidades
 
 **Construção**
-- Pontos e pontos ideais (Ω) — pontos "no infinito", sobre a borda do disco
+- Pontos e pontos ideais (Ω) (pontos "no infinito", sobre a borda do disco)
 - H-retas, h-segmentos e h-triângulos
 - H-ângulos, com medida calculada e exibida automaticamente
 - Ponto médio hiperbólico, pé da perpendicular, reflexão através de uma h-reta
@@ -43,7 +43,7 @@ R = Refletir(A, B, P)
 T = Triangulo(A, B, C)
 ```
 
-Também é possível **resolver posições por restrição de ângulo** — o comando desliza ou reposiciona um ponto até uma condição de ângulo ser satisfeita:
+Também é possível **resolver posições por restrição de ângulo**, o comando desliza ou reposiciona um ponto até uma condição de ângulo ser satisfeita:
 
 ```
 Q = Reta(A, B) | Angulo(A, Q, B) == 90
